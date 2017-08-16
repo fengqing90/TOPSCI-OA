@@ -1,0 +1,104 @@
+Changelog:
+	   
+   Version TOPSCI&OA_1.35.6.131131
+   	重要:@author:qfeng	
+   		1.修改<考勤统计>中分页bug
+   		2.修改<工时查看>中分页bug
+   		
+   Version TOPSCI&OA_1.35.4.130814
+   	重要:@author:qfeng	
+   		1.修改<工时统计>非管理员只能统计自己工时过滤
+   		
+   Version TOPSCI&OA_1.34.4.130813
+   	重要:@author:qfeng	
+   		1.新增<工时统计>页面显示和导出Excel中加入项目类型组
+   		2.修复部分条件查询乱码
+   	
+   Version TOPSCI&OA_1.33.3.1307025
+   	重要:@author:qfeng	
+   		1.新增<考勤统计>导出Excel功能
+   		2.新增<工时统计>显示出所有人
+   		3.新增<人员信息：部门>，<考勤统计>、<工时统计>按照 部门排序
+   		4.修改<考勤统计>中出现多个相同职员的数据
+   	
+   Version TOPSCI&OA_1.30.2.1307024
+   	重要:@author:qfeng	
+   		1.修改日期控件中的“今天”按钮，点击后日期变为今天
+		2.修复<考勤查看,考勤统计>重置按钮无效
+		3.修改<工时登记>中点击项目时自动查询出所有项目
+		4.修改session超时为30分钟
+		
+   Version TOPSCI&OA_1.30.2.1307022
+   	重要:@author:qfeng
+		1.添加上下班时间配置
+		2.修改<考勤统计>数据组装方式
+
+   Version TOPSCI&OA_1.29.1.1307019
+   	重要:@author:qfeng	
+   		1.添加<管理员：考勤统计>功能
+   		2.修改<工时登记>只能登记当天
+   		3.修改<下班登记>时必须当日工时等于100的限制
+   		4.添加<工时查看>时显示未填写工时的工作日
+   		5.添加<工时统计>时显示未填写工时的百分比
+   		
+   Version TOPSCI&OA_1.23.1.1307018
+   	重要:@author:qfeng
+   		1.修改<个人信息>提交会冲掉原数据的BUG
+   		
+   Version TOPSCI&OA_1.23.0.1307017
+   	重要:@author:qfeng
+   		1.添加<在TOMCAT中获取对应session>的功能
+   		
+   Version TOPSCI&OA_1.22.0.1307011
+   	重要:@author:qfeng
+   		1.添加<考勤查看>的分页
+   		
+   Version TOPSCI&OA_1.21.0.1307010
+   	重要:@author:qfeng
+   		1.修改<连接数据库的方式>
+   		2.添加<项目维护>、<人员信息维护>、<工时查看>的分页
+   
+   Version TOPSCI&OA_1.17.0.1307009
+	重要：@author:qfeng
+   		1.新增<人员信息维护>功能。
+   		2.新增<监控Config.properties>功能。
+   
+   Version TOPSCI&OA_1.15.0.1307008
+	重要：@author:qfeng
+		1.新增<sessionUser超时过滤跳转>功能。
+		2.新增<与LDAP连接验证用户>功能。
+		3.新增<页面样式>
+		
+   Version TOPSCI&OA_1.12.0.1307007
+	重要：@author:qfeng
+		1.新增<登记工时验证>功能。
+		
+   Version TOPSCI&OA_1.12.0.1307007
+	重要：@author:qfeng
+		1.新增<IP过滤>功能。
+   
+   Version TOPSCI&OA_1.11.0.130704
+	重要：@author:qfeng
+		1.新增<个人工时统计>查询和导出Excel功能。
+		2.新增<特殊用户工时统计>查询和导出Excel功能。
+		
+   Version TOPSCI&OA_1.8.0.130701
+	重要：@author:qfeng
+		1.新增<用户注册>功能。
+		2.新增<考勤查询>日期过滤。
+		3.新增<工时查看>修改、查询。
+		
+   Version TOPSCI&OA_1.5.0.130628
+	重要：@author:qfeng
+		1.新增<用户登陆>功能。
+		2.新增<考勤登记>功能。
+		3.新增<考勤查询>功能，完成度：80%，缺少日期过滤。
+		4.新增<用户维护>功能，完成度：80%，缺少查询。
+		5.新增<工时查看>功能，完成度：50%，缺少修改、查询。
+	
+   Version TOPSCI&OA_1.0.0.130626
+	重要：@author:qfeng
+
+		
+	
+	

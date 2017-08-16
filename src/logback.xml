@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+	<timestamp key="byDay" datePattern="yyyy-MM-dd" />
+
+	<appender name="RootConsoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>[TOPSCI_OA]%date %level [%thread] %10logger [%file:%line] %msg%n</pattern>
+		</layout>
+	</appender>
+	
+	<appender name="RootFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${catalina.home}/logs/TOPSCI_OA.log</file>
+		<append>true</append>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${catalina.home}/logs/TOPSCI_OA.%d{yyyy-MM-dd}.log</fileNamePattern>
+		</rollingPolicy>
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>[TOPSCI_OA]%date %level [%thread] %10logger [%file:%line] %msg%n</pattern>
+		</layout>
+	</appender>
+	
+	<root>
+		<level value="info" />
+		<appender-ref ref="RootFileAppender" />
+		<appender-ref ref="RootConsoleAppender" /> 
+	</root>
+	<!-- 下面配置一些具体包的日志过滤级别 -->
+	<logger name="java.sql.ResultSet" level="debug" /> 
+	<logger	name="org.apache.ibatis" level="debug" />
+	<logger	name="java.sql.PreparedStatement" level="debug" /> 
+	<logger	name="java.sql.Connection" level="debug" /> 
+	<logger name="org.mybatis.spring" level="debug" />  
+</configuration>

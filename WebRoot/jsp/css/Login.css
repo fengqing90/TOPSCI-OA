@@ -1,0 +1,80 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background: #d5e4f2 url('../images/bg.png') left top repeat-x;
+	font-size: 12px;
+	color: #383838;
+}
+
+.update_tips {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	color: #FFFFFF;
+}
+
+#logo {
+	margin: 0px auto;
+	margin-top: 100px;
+	padding-left: 343px;
+	padding-top: 307px;
+	width: 498px;
+	height: 200px;
+	background: url('../images/logo.png') left top no-repeat;
+}
+
+#logo #form {
+	width: 245px;
+	height: 96px;
+	padding-left: 100px;
+}
+
+#logo #form .left {
+	float: left;
+	width: 150px;
+}
+
+#logo #form .left div {
+	height: 32px;
+	text-align: left;
+}
+
+#logo #form .right {
+	float: left;
+	width: 62px;
+}
+
+#logo .msg {
+	width: 345px;
+	padding-top: 15px;
+	line-height: 20px;
+	text-align: center;
+}
+
+input.text {
+	border: 1px #cccccc solid;
+	padding: 0px 5px;
+	width: 128px;
+	height: 20px;
+	line-height: 20px;
+}
+
+select {
+	width: 140px;
+	height: 22px;
+}
+
+input.submit {
+	width: 62px;
+	height: 57px;
+	background: url("../images/submit.jpg") left top no-repeat;
+	border: 0px;
+	cursor: pointer;
+}
+
+input.submit:hover {
+	background-position: 0 -57px;
+}
